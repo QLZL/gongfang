@@ -38,7 +38,8 @@ public class SysUserController {
 
     @GetMapping("/list")
     public List<SysUser> list() {
-        
+        return sysUserService.list();
     }
+    
 
 }
