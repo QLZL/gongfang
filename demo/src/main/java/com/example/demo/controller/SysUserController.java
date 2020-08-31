@@ -20,6 +20,11 @@ public class SysUserController {
     @Autowired
     private SysUserService sysUserService;
 
+    @GetMapping("/")
+    public String index() {
+        return "欢迎访问";
+    }
+
     @GetMapping("/getUser")
     public SysUser getUser(Long id) {
         return sysUserService.getById(id);
