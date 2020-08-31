@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * @author aqsus
+ */
 @RestController
 public class SysUserController {
 
